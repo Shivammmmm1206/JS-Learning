@@ -49,3 +49,59 @@ console.log(i *= 2)
 
 let   j  = 10;
 console.log(j /= 2)
+
+// comparison operators
+
+
+// inequality operators
+
+let K = 15;
+console.log(K !=15)
+
+// greater than operator
+let L = 15;
+console.log(L > 10)
+
+// less than operator
+let M = 15;
+console.log(M < 10)
+
+// Logical operators
+
+// logical AND operator
+//The logical AND (&&) operator checks whether both operands are true.
+
+let age =  20;
+let idProof = true;
+
+if(age >= 18 && idProof) {
+    console.log("you can vote")
+} else {
+    console.log("you can't vote")
+}
+
+
+// Logical OR operator
+//The logical OR (||) operator checks whether at least one of the operands is true.
+
+
+let hisAge =  16 ;
+let hasGuardian =  true;
+
+if (age>=18 || hasGuardian ){
+    console.log("you can vote")
+} else {
+    console.log("you can't vote")
+}
+
+
+// Logical Not Operator
+//The logical NOT (!) operator inverts the logical value of its operand.
+
+let isLoggedIn =  false;
+
+if (!isLoggedIn) {
+    console.log("you can't vote")
+} else {
+    console.log("you can vote")
+}
