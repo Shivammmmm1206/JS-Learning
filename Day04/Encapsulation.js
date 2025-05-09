@@ -12,7 +12,7 @@ class person {
     }
     getDetails() {
         console.log(`Name is ${this.name},
-        Address is ${this.add}`);
+        Address is ${this.address}`);
     }
 }
 
